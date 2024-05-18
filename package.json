@@ -2,7 +2,7 @@
   "name": "pathproxy",
   "version": "1.0.0",
   "description": "Proxy for MJPEG live streams",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
