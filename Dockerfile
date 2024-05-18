@@ -8,9 +8,6 @@ RUN npm install
 
 COPY . .
 
-ENV PROXIED_URL=${PATHPROXY_PROXIED_URL}
-ENV PORT=${PATHPROXY_PORT}
-
-EXPOSE ${PORT}
+EXPOSE 8080
 
 CMD ["node", "index.js"]
