@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$1" == "install" ]; then
-    podman run --name pathproxy --pod pathproxy-pod --replace -d docker.io/library/nginx
+    podman run --name pathproxy --pod pathproxy-pod --replace -d localhost/pathproxy:latest
 elif [ "$1" == "stop" ]; then
     podman stop pathproxy
 elif [ "$1" == "start" ]; then
